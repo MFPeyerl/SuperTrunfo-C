@@ -12,7 +12,7 @@ int main(){
     printf("\n\nOlá! Bem-vindo ao Super Trunfo!\n\n");      // Textinho para iniciar o jogo
 
     // CARTA 1
-    printf("Qual o estado (A a H)?\n");
+    printf("Qual o estado?\n");
     scanf(" %c", &estado); //Encontrei problema com github... estava apresentando um erro de "expected expression before 'char'", mas era só um erro de formatação do código, o espaço antes de %c foi essencial para evitar problemas com caracteres de nova linha
 
     printf("Qual o codigo (01 a 04)?\n");
@@ -36,7 +36,7 @@ int main(){
     // CARTA 2
     printf("\nDados da segunda carta:\n");
 
-    printf("Qual o estado (A a H)?\n");
+    printf("Qual o estado?\n");
     scanf(" %c", &estado2);
 
     printf("Qual o codigo (01 a 04)?\n");
